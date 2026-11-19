@@ -10,7 +10,7 @@ const client = new Client({
 
 const timers = new Map();
 
-const AFK_CHANNEL_ID = 'ضع_ID_روم_AFK_هنا';
+const AFK_CHANNEL_ID = const AFK_CHANNEL_ID = '1572851710022516806';
 const TIME_LIMIT = 30 * 60 * 1000;
 
 client.once('ready', () => {
